@@ -9,8 +9,7 @@ This project uses AI models to turn images and text into short videos about FAUâ
 - PyTorch  
 - Diffusers  
 - Transformers  
-- OpenCV  
-- FFmpeg  
-
+- OpenCV
+  
 ## Goal
 To generate short and realistic videos from either text or image input that represent FAU Engineering creatively.
