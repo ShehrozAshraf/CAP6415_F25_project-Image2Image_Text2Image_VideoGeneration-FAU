@@ -1,0 +1,14 @@
+Our Week 1 Log (Start of Semester till November 9, 2025)
+
+- We selected project topic, 'Image2Image + Text2Image Video Generation for FAU Engineering'.
+- Created our public GitHub repository (CAP6415_F25_project-Image2Image_Text2Image_VideoGeneration-FAU).
+- Added project description and README file.
+- Reviewed different diffusion-based video generation methods such as Stable Diffusion, VAE, GAN, that we studied in class and also looked into AnimateDiff and ModelScope Text2Video. 
+- Installed Python libraries (torch, diffusers, transformers, opencv-python).
+- Took different FAU Engineering / FAU-related pictures from on-campus for image/video generation. 
+
+Plan for Week 2:
+- We plan to implement our first text-to-video generation pipeline.
+- Then save the generated frames and convert them into video clips using OpenCV.
+- Add more documentation and results.
+- Continue working on increasing our data (FAU related pictures).
