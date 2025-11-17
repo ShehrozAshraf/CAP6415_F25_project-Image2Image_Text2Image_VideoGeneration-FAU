@@ -1,14 +1,21 @@
 Progress This Week
 
-Implemented our first text-to-video generation pipeline using the Diffusers library.
-Experimented with Stable Diffusion text-to-image and generated coherent frame sequences using a loop-based prompt-conditioning approach.
-Tested multiple prompt styles related to FAU Engineering, including labs, drones, robotics, and campus engineering buildings.
-Implemented the initial frame-saving and video-construction pipeline using OpenCV.
-Generated frames were saved as sequential PNG images.
-Successfully combined the frames into short MP4 video clips at variable FPS values (12 FPS, 24 FPS) to analyze smoothness and temporal consistency.
-Began experimenting with AnimateDiff for motion-aware video synthesis.
-Tested pretrained motion modules from the internet and validated compatibility with our base diffusion model.
-Compared outputs from AnimateDiff vs. our manual frame-loop approach to understand motion quality differences.
-Expanded our internal dataset of FAU Engineering images.
-Captured more pictures around campus including the engineering building exterior, hallways, and lab equipment.
-Organized datasets into separate folders for text-to-video and image-to-video testing.
+- Implemented our first text-to-video generation pipeline using the Diffusers library.
+- Experimented with Stable Diffusion text-to-image and generated coherent frame sequences using a loop-based prompt-conditioning approach.
+- Tested multiple prompt styles related to FAU Engineering, including labs, drones, robotics, and campus engineering buildings.
+- Implemented the initial frame-saving and video-construction pipeline using OpenCV.
+- Generated frames were saved as sequential PNG images.
+- Successfully combined the frames into short MP4 video clips at variable FPS values (12 FPS, 24 FPS) to analyze smoothness and temporal consistency.
+- Began experimenting with AnimateDiff for motion-aware video synthesis.
+- Tested pretrained motion modules from the internet and validated compatibility with our base diffusion model.
+- Compared outputs from AnimateDiff vs. our manual frame-loop approach to understand motion quality differences.
+- Expanded our internal dataset of FAU Engineering images.
+- Captured more pictures around campus including the engineering building exterior, hallways, and lab equipment.
+- Organized datasets into separate folders for text-to-video and image-to-video testing.
+
+Plan for Next Week:
+- Begin implementing the image-to-image → video pipeline, using FAU images as starting keyframes.
+- Improve temporal consistency by experimenting with control parameters (CFG scale, number of inference steps, scheduler types).
+- Integrate AnimateDiff more tightly into our workflow and test custom motion modules.
+- Start writing preliminary results and documenting comparisons between text-to-video and image-to-video outputs.
+- Continue refining video generation quality and expanding dataset if needed.
