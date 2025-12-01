@@ -1,0 +1,39 @@
+Week 3 Log
+
+Progress This Week
+
+- Implemented the image-to-image → video generation pipeline, starting with FAU Engineering images as initial keyframes.
+- Applied diffusion-based image-to-image generation across sequential latent noise variations to create consistent frame progressions.
+
+- Performed experiments with different control parameters, including:
+	- CFG scales from 5–12
+	- DDIM vs. Euler vs. DPMSolver schedulers
+	- 20–60 inference steps per frame
+
+- Identified early trends: higher CFG scale gives sharper details but reduces smoothness; DDIM gives more stable transitions between frames.
+
+- Integrated AnimateDiff into the image-guided pipeline, enabling more natural temporal motion compared to manual frame interpolation.
+
+- Downloaded and configured several custom AnimateDiff motion modules, such as “Camera Move,” “Forward Motion,” and “Zoom In,” to simulate realistic campus-style movement.
+
+- Began formal documentation of preliminary results, noting differences between:
+	- Text-to-video
+	- Image-to-video
+	- AnimateDiff-assisted video
+
+Added new FAU Engineering shots to the data folder, specifically focusing on architecture, palm-tree walkways, FAU signage, and indoor lab environments.
+
+Conducted early failure-case analysis, including:
+	- Frame jitter
+	- Color drift
+	- Object warping
+	- Temporal instability when motion modules conflict with noisy input frames
+
+Plan for Next Week:
+
+- Start refining the best-performing pipelines and run multiple controlled experiments.
+- Compare AnimateDiff motion modules quantitatively (frame smoothness, color consistency).
+- Continue enhancing the image-to-video generation workflow with more stable reference images.
+- Begin assembling a mid-project report summarizing findings, challenges, and next steps.
+- Start building longer sequences (4–8 seconds) and test different resolution settings (512→768).
+
