@@ -1,0 +1,42 @@
+Week 4 Log
+
+Progress This Week
+
+- Performed deeper experiments to optimize temporal consistency across all pipeline types.
+- Implemented noise-offset correction and seed-linked generation to reduce sudden object distortions across frames.
+- Introduced frame difference analysis using OpenCV to measure motion smoothness quantitatively.
+
+- Built a small evaluation script to compare:
+	- Color histogram consistency	
+	- Structural similarity (SSIM)
+	- Frame-to-frame pixel variance
+
+Ran extended tests on AnimateDiff, producing multiple 4–6 second FAU-themed clips simulating:
+	- Forward walking through hallways
+	- Drone-style approach to the engineering building
+	- Camera pan over lab equipment
+
+- Successfully integrated ControlNet (Depth + Canny) into the image-to-video pipeline to preserve geometric structure of FAU buildings.
+- Observed noticeably improved stability when combining ControlNet with AnimateDiff—especially for scenes with strong edges like windows, pillars, and signage.
+- Continued producing documentation and added side-by-side comparisons (text→video vs. image→video vs. AnimateDiff+ControlNet).
+
+Started drafting mid-project write-up covering:
+
+- Methodology
+- Design choices
+- Dataset description
+- Early results
+
+Challenges and planned improvements:
+
+- Began experimenting with higher-resolution models (768 × 768) and tested VRAM limits on available GPUs.
+
+Plan for Next Week:
+
+- Finalize project report and prepare demo clips for the presentation.
+- Explore additional generative tools such as ModelScope T2V and recently released motion-aware diffusion checkpoints.
+- Improve video stabilization and reduce distortions using optical-flow-based post-processing.
+- Begin planning the editing/compositing phase for the promotional FAU Engineering video.
+- Continue refining pipeline parameters and dataset expansion if additional footage is required.
+
+**Note**: No premilanry results expect enhanced pictures, as the final product is a promotional video and for the prompts to work we need to make an interface. Hence, for this particular project we would need to wait for the end result. We can however, upload the enhanced images and videos if required.
