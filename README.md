@@ -22,12 +22,12 @@ These images served as inputs for the image-to-video pipeline.
 
 ## Text-to-Image Example:
 Prompt: “Student working in an engineering lab at FAU with bright lighting.”
-Result: Abstract, unrealistic figures → not usable.
+Result: Abstract, unrealistic figures ==> not usable.
 ![Test Image](Test_Image_1.jpeg)
 
 ## Image-to-Video Example:
 Prompt: “Cinematic slow push-in toward the FAU Engineering building.”
-Result: Smooth 8-second clip with natural motion → final method used.
+Result: Smooth 8-second clip with natural motion ==> final method used.
 [Watch Test Video](Test_Video_1.mp4)
 
 # Final Approach
