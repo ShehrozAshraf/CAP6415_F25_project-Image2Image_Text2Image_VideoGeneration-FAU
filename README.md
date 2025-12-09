@@ -51,7 +51,7 @@ project/
 │── .env                     
 │── requirements.txt
 │── README.md
-
+----
 
 ## Dependencies
 
