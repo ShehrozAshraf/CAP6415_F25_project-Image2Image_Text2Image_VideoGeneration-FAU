@@ -23,6 +23,7 @@ These images served as inputs for the image-to-video pipeline.
 ## Text-to-Image Example:
 Prompt: “Student working in an engineering lab at FAU with bright lighting.”
 Result: Abstract, unrealistic figures → not usable.
+![Test Image](Test_Image_1.jpeg)
 
 ## Image-to-Video Example:
 Prompt: “Cinematic slow push-in toward the FAU Engineering building.”
