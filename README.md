@@ -141,6 +141,9 @@ You will get:
 final_output_fixed.mp4
 ```
 
+# Additional Files
+Some files were too large to be uploaded on GitHub so I uploaded them on my google drive and here is the link: https://drive.google.com/drive/folders/14CrObDzguRElgLCDjrlcKvO_J4l7VmCh?usp=sharing
+
 # Examples 
 ## Text-to-Image Example: 
 Prompt: “FAU Engineering building image.” Result: Abstract, unrealistic figures ==> not usable. 
