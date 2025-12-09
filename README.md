@@ -28,6 +28,7 @@ Result: Abstract, unrealistic figures → not usable.
 ## Image-to-Video Example:
 Prompt: “Cinematic slow push-in toward the FAU Engineering building.”
 Result: Smooth 8-second clip with natural motion → final method used.
+![Test Video](Test_Video_1.mp4)
 
 # Final Approach
 After testing several methods, we concluded that image-to-video generation produces the most reliable and realistic output. Our final pipeline uses real FAU photos enhanced with AI-generated movement to create short cinematic videos representing FAU Engineering.
