@@ -83,7 +83,7 @@ https://ffmpeg.org/download.html
 | **Veo 3** | Preview / fallback |
 | **Gemini 2.5 Flash Image Preview** | Image generation |
 
-### important Note: **You MUST enable billing**  
+### Important Note: **You MUST enable billing**  
 Video generation via Veo requires billing enabled on Google Cloud.
 
 ### API Key Setup:
@@ -141,4 +141,10 @@ You will get:
 final_output_fixed.mp4
 ```
 
----
+# Examples 
+## Text-to-Image Example: 
+Prompt: “FAU Engineering building image.” Result: Abstract, unrealistic figures ==> not usable. 
+![Test Image](Test_Image_1.jpeg) 
+## Image-to-Video Example: 
+Prompt: “Cinematic slow push-in toward the FAU Engineering building.” Result: Smooth 8-second clip with natural motion ==> final method used.
+[Watch Test Video](Test_Video_1.mp4)
