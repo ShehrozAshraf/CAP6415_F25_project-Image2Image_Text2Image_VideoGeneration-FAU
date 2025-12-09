@@ -21,7 +21,7 @@ These images served as inputs for the image-to-video pipeline.
 # Examples
 
 ## Text-to-Image Example:
-Prompt: “Student working in an engineering lab at FAU with bright lighting.”
+Prompt: “FAU Engineering building image.”
 Result: Abstract, unrealistic figures ==> not usable.
 ![Test Image](Test_Image_1.jpeg)
 
